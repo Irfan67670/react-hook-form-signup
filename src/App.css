@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+body {
+	max-width: 400px;
+	margin: 0 auto;
+	background: url(./images//bg3.jpeg) no-repeat center center fixed;
+	background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+	font-weight: 300;
+	text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span > label {
+	display: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="checkbox"] {
+	box-sizing: inherit;
+	width: inherit;
+	margin-top: 30px;
+	margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px 0;
+	letter-spacing: 10px;
+	border-radius: 8px;
+	background-color: lightgreen;
+}
+
+label {
+	line-height: 2;
+	text-align: left;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+p {
+	color: red;
 }
