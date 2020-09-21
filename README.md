@@ -3,7 +3,7 @@ A sign up or registration form which was created using react-hook-form(v6) and Y
 
 ## How to run :
 
-Open termina and Install dependencies :
+Open terminal / command line and Install dependencies :
 
 ### `yarn`
 
