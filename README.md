@@ -1,5 +1,11 @@
 # Sign Up Form
+
 A sign up or registration form which was created using react-hook-form(v6) and Yup.
+
+## Demo
+
+This is how this form looks :
+<img src="https://raw.githubusercontent.com/kevinadhiguna/react-hook-form-signup/master/demo/1.react-hook-form-signup.png" width="90%"></img>
 
 ## How to run :
 
